@@ -1,0 +1,1 @@
+package com.cs.ioc;/** * @author: demopoo * @Date: Created in 下午12:46 2018/3/19 * @Des: * @Modifyed By: */public class BeanDefinition {    private Object bean;    public BeanDefinition(Object bean){        this.bean = bean;    }    public Object getBean() {        return bean;    }}

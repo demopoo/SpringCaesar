@@ -1,0 +1,1 @@
+package com.cs.ioc.io;import java.io.InputStream;import java.net.URL;/** * @author: demopoo * @Date: Created in 下午6:22 2018/3/19 * @Des: * @Modifyed By: */public interface Resource {    InputStream getInputStream();}

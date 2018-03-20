@@ -1,0 +1,1 @@
+package com.cs.ioc.xml;/** * @author: demopoo * @Date: Created in 下午10:03 2018/3/19 * @Des: * @Modifyed By: */public interface BeanDefinitionReader {    void loadXmlBeanDefinition(String location);}

@@ -1,0 +1,1 @@
+package com.cs.ioc.io;import java.net.URL;/** * @author: demopoo * @Date: Created in 下午6:27 2018/3/19 * @Des: * @Modifyed By: */public class ResourceLoaderURL {    public Resource getURL(String location){        URL url = this.getClass().getClassLoader().getResource(location);        return new URLResource(url);    }}

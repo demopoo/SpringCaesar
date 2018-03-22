@@ -1,1 +1,1 @@
-package com.cs.ioc;/** * @author: demopoo * @Date: Created in 下午1:35 2018/3/19 * @Des: * @Modifyed By: */public interface BeanFactory {    Object getBean(String beanName);    void registerBeanDefinition(String beanName,BeanDefinition beanDefinition);}
+package com.cs.ioc;/** * @author: demopoo * @Date: Created in 下午1:35 2018/3/19 * @Des: * @Modifyed By: */public interface BeanFactory {    Object getBean(String beanName);}

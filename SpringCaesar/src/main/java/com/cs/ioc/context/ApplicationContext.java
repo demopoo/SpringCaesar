@@ -1,0 +1,1 @@
+package com.cs.ioc.context;import com.cs.ioc.BeanFactory;/** * @author: demopoo * @Date: Created in 下午4:34 2018/3/22 * @Des: * @Modifyed By: */public interface ApplicationContext extends BeanFactory {}

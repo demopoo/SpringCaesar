@@ -1,0 +1,1 @@
+package com.cs.ioc;/** * @author: demopoo * @Date: Created in 下午3:37 2018/3/22 * @Des:  该类主要用来处理bean之间的依赖关系 * @Modifyed By: */public class BeanRefrence {}
